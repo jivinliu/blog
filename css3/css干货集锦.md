@@ -38,14 +38,12 @@ div.box {
 }
 ```
 ### 新的display:flex方式
-
+```css
 .box {
     display: -webkit-flex;
     -webkit-flex-direction: column;
     height: 300px;
 }
-
-```css
 .box div:nth-child(1) {
     -webkit-flex: 1;
     background: red;
