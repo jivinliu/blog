@@ -89,3 +89,24 @@ div.box {
     -webkit-box-pack: center;
 }
 ```
+
+## 匀速旋转
+
+```css
+.box {
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-animation: rotate 1s linear infinite;
+}
+
+@-webkit-keyframes rotate {
+    0% {
+        -webkit-transform: rotate(0)
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg)
+    }
+}
+```
